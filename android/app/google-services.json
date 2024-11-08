@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "183020406307",
+    "project_id": "ankle-rom",
+    "storage_bucket": "ankle-rom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:183020406307:android:88aa287f6ddd84db5c1396",
+        "android_client_info": {
+          "package_name": "com.example.ankleromapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwfOy18fmCJ39-QCZu7--BkfSDbbV2SoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
