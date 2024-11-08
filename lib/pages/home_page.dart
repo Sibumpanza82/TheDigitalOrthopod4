@@ -1,6 +1,5 @@
 import 'package:ankleromapp/util/exercise_tile.dart';
 import 'package:ankleromapp/util/rom_blocks.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 import 'package:ankleromapp/pages/bluetooth_screen.dart';
@@ -19,10 +18,9 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final user = FirebaseAuth.instance.currentUser!;
   //Sign user out method
   void signUserOut() {
-    FirebaseAuth.instance.signOut();
+
   }
 
   //Handle navigation based on selected index
